@@ -1,0 +1,170 @@
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form {
+    margin:0;
+}
+
+ul,ol {
+    padding-left:0;
+    list-style-type:none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*image with no-border*/
+a img {
+    border:0;
+}
+
+img{
+    border:0;
+    vertical-align: middle;
+}
+
+.btn {
+    border: 0;
+    outline: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*清楚浮动*/
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    min-width: 1000px;
+}
+
+.m-c {
+    width: 1000px;
+    min-height: 293px;
+    margin: 0 auto;
+}
+
+.s-form {
+    width: 640px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.b-lg {
+    height: 61.8%;
+    min-height: 181px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+}
+
+.b-lg img {
+    width: 270px;
+    height: 129px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -135px;
+}
+
+.m-msg {
+    position: absolute;
+    top: 40px;
+    width: 535px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: 0;
+    box-shadow: 1px 1px 3px #ededed;
+    -webkit-box-shadow: 1px 1px 3px #ededed;
+    -moz-box-shadow: 1px 1px 3px #ededed;
+    -o-box-shadow: 1px 1px 3px #ededed;
+}
+
+.m-msg li {
+    color: #000;
+    font: 14px arial;
+    line-height: 25px;
+    padding: 2px 8px;
+    position: relative;
+    cursor: default;
+}
+
+.m-msg li:hover {
+    background: #f0f0f0;
+}
+
+.selected {
+    background: #f0f0f0;
+}
+
+.text-wrap {
+    position: relative;
+}
+
+.text-wrap .s-input {
+    display: inline-block;
+    width: 521px;
+    height: 20px;
+    padding: 9px 7px;
+    font: 16px arial;
+    border: 1px solid #b8b8b8;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    vertical-align: top;
+    outline: none;
+    box-shadow: none;
+    zoom: 1;
+}
+
+.text-wrap .s-input:focus {
+    border: 1px solid #2e7ae5;
+    border-right: 0;
+}
+
+.s-btn {
+    display: inline-block;
+    width: 102px;
+    height: 38px;
+    border: 1px solid #38f;
+    border-bottom: 1px solid #2e7ae5;
+    background-color: #38f;
+    vertical-align: top;
+    zoom: 1;
+ }
+
+.s-btn button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    background-color: #38f;
+    cursor: pointer;
+}
