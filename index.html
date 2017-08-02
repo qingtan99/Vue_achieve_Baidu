@@ -13,9 +13,7 @@
             <div class="b-lg">
                 <img src="images/b_lg.png" alt="">
             </div>
-
-            <!--<form id="app">-->
-                <div id="app" class="text-wrap fix">
+                <div id="app" class="text-wrap fix" v-cloak>
                     <div class="m-msg" :class="{hide: fH}">
                         <ul>
                             <li class="msg-item" v-for="(item, index) in dataList" v-on:click="clickSearch" :class="{selected: index == nowIndex}" @mouseover="mouseHover(index)">
@@ -31,7 +29,6 @@
                         <button type="button" v-on:click="clickSearch">百度一下</button>
                     </span>
                 </div>
-            <!--</form>-->
         </div>
     </div>
 </div>
